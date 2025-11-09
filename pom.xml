@@ -928,7 +928,7 @@
                         <groupId>org.apache.maven.plugins</groupId>
                         <artifactId>maven-surefire-plugin</artifactId>
                         <configuration>
-                            <skipTests>true</skipTests>
+                            <skipTests>false</skipTests>
                         </configuration>
                     </plugin>
                 </plugins>
@@ -2068,7 +2068,7 @@
                         <groupId>org.apache.maven.plugins</groupId>
                         <artifactId>maven-surefire-plugin</artifactId>
                         <configuration>
-                            <skip>true</skip>
+                            <skip>false</skip>
                             <environmentVariables>
                                 <GLASSFISH_HOME>${project.build.directory}/glassfish4</GLASSFISH_HOME>
                             </environmentVariables>
@@ -2155,7 +2155,7 @@
                         <groupId>org.apache.maven.plugins</groupId>
                         <artifactId>maven-surefire-plugin</artifactId>
                         <configuration>
-                            <skipTests>true</skipTests>
+                            <skipTests>false</skipTests>
                         </configuration>
                     </plugin>
                     <plugin>
