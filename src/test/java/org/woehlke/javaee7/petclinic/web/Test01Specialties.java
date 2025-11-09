@@ -38,6 +38,10 @@ public class Test01Specialties {
     public static WebArchive createDeployment() {
         return Deployments.createSpecialtiesDeployment();
     }
+    @Test
+    public void placeholder() {
+        // This test does nothing but will generate a report
+    }
 
     @Drone
     private WebDriver driver;
